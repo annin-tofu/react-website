@@ -68,4 +68,36 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # react-website
+
+### Where is serviceWorker.js? It got replaced with reportWebVitals ?
+
+https://stackoverflow.com/questions/64850206/serviceworker-missing-from-reactapp
+
+A. Yes, this is an update after CRAv4 and React 17. Create-React-App’s (CRA) boilerplate now comes set up to record those measurements out of the box (In an update, they switched from Service worker to the Workbox InjectManifest plugin and moved the PWA templates into their own repository. )
+
+## VS Code trick
+
+          Type "Link" then press TAB.
+          it becomes <Link></Link>
+
+## Font Awesome
+
+https://saruwakakun.com/html-css/basic/font-awesome
+
+ウェブサイトやブログで Web アイコンフォントを表示できるようにしてくれるサービス
+ウェブページ上で文字と同じように表示できるアイコンのことです。画像でアイコンを貼るのと違い、拡大してもぼやけませんし、色もサイズも簡単に変えることができます。
+
+In Index.html within Public Folder
+<!-- Font Awesome
+    Below code pulled from "Font Awesome CDN" page -->
+<link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+
+24:07
+https://youtu.be/I2UBjN5ER4s?t=1447
