@@ -90,6 +90,7 @@ https://saruwakakun.com/html-css/basic/font-awesome
 ウェブページ上で文字と同じように表示できるアイコンのことです。画像でアイコンを貼るのと違い、拡大してもぼやけませんし、色もサイズも簡単に変えることができます。
 
 In Index.html within Public Folder
+
 <!-- Font Awesome
     Below code pulled from "Font Awesome CDN" page -->
 <link
