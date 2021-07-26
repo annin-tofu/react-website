@@ -32,7 +32,7 @@ function Navbar() {
 
           {/* to="/" (PATH"*/}
           <Link to="/" className="navbar-logo">
-            WBST
+            Kinky Town
             {/* VS Code trick
           Type "i.fab.fa-typo3" then press TAB then, 
           it becomes "<i className="fab fa-typo3"></i>" */}

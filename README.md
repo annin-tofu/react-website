@@ -102,3 +102,45 @@ In Index.html within Public Folder
 
 24:07
 https://youtu.be/I2UBjN5ER4s?t=1447
+
+## Arrow Function ?
+
+https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+
+## Why use ` (backticks) and $ ?
+
+https://betterprogramming.pub/javascript-how-backticks-work-de269e0fb8ba
+
+### " it will allow us to concatenate and interpolate strings so our code is much cleaner."
+
+####
+
+// "Old syntax"
+const userInfo = 'User info: ' + name + ' ' + surname + ' ' + telephone;
+// "New syntax"
+const userInfo = `User info: ${name} ${surname} ${telephone}`;
+
+### "can also execute code within template strings"
+
+####
+
+// "Old syntax"
+const userInfo = 'User info: ' + user.getName() + ' ' + user.getEmail();
+// "New syntax"
+const userInfo = `User info: ${user.getName()} ${user.getEmail()}`;
+
+### "Another advantage of using backticks ( `` ) is that it is no longer necessary to escape double quotes ( "" ) or single quotes ( '' ), "
+
+####
+
+const foo = 'Can\'t connect to the server';
+const bar = `Can't connect to the server`;
+Or for example:
+
+####
+
+const foo = "Error: \"Introduce a valid email\"";
+const bar = `Error: "Introduce a valid email"`;
+
+BACKTICKS ARE VERY HANDY AND COOL!!
+https://youtu.be/I2UBjN5ER4s?t=1872
